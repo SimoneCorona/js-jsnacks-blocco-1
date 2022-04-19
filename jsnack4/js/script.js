@@ -8,12 +8,7 @@ do {
 } while (userNum.length != 4);
 
 // Creare array del num utente "smontato"
-let arrOfuserNum;
-if (userNum.length = 4) {
-     arrOfuserNum = Array.from(String(userNum));
-} else {
-    prompt("Dimmi un numero a 4 cifre") 
-}
+let arrOfuserNum = Array.from(String(userNum));
 console.log(arrOfuserNum);
 
 // calcola la somma di tutte le cifre che compongono il numero
